@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'RxRealmDataSources'
-  s.version          = '0.2.10'
+  s.version          = '0.2.11-Swift5.1'
   s.summary          = 'Rx data sources for RxRealm`s observable types'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
 
   s.source_files = 'Pod/Classes/*.swift'
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
 
   s.dependency 'RealmSwift', '~> 3.10'
-  s.dependency 'RxSwift',    '~> 4.0'
-  s.dependency 'RxCocoa',    '~> 4.0'
+  s.dependency 'RxSwift',    '~> 5.0'
+  s.dependency 'RxCocoa',    '~> 5.0'
   s.dependency 'RxRealm',    '~> 0.7.6'
 end
