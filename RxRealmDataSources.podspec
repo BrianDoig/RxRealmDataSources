@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.dependency 'RealmSwift', '~> 3.10'
   s.dependency 'RxSwift',    '~> 5.0'
   s.dependency 'RxCocoa',    '~> 5.0'
-  s.dependency 'RxRealm',    '~> 0.7.6'
+  s.dependency 'RxRealm',    '~> 1.0.1'
 end
